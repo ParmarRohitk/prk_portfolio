@@ -231,10 +231,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | By PRK</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="PRK, A open-source portfolio theme built with Nextjs"
         />
       </Head>
 
@@ -252,34 +252,34 @@ export default function Projects() {
               <FeaturedProject
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                title="PRK"
                 summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="/"
+                github="https://github.com/ParmarRohitk"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                title="PRK"
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="/"
+                github="https://github.com/ParmarRohitk"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                title="PRK"
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link=""
+                github="https://github.com/ParmarRohitk"
               />
             </div>
           </div>

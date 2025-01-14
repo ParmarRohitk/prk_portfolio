@@ -1,81 +1,47 @@
-# NexTemp | A Next.js Personal Web App
+# PRK | A Next.js Personal Web App
 
-![NexTemp - A Next.js Personal Web App](https://github.com/ParmarRohitk/nextemp/blob/main/public/NexTemp-cover.png)
+![PRK - A Next.js Personal Web App](https://github.com/ParmarRohitk/PRK/blob/main/public/PRK-cover.png)
 
-NexTemp - A bespoke **template** for your **next** web project. NexTemp is a personal portfolio and blog theme built around Next.js. It features a modern, clean, and responsive design, perfect for developers or anyone looking to showcase their work and ideas. For more themes and updates, stay tuned.
+PRK is a bespoke **template** designed for your **next** web project. It's a personal portfolio and blog theme built with Next.js, featuring a modern, clean, and responsive design. Whether you're a developer or a creative individual, PRK is perfect for showcasing your work and sharing your ideas. Stay tuned for more updates and themes!
 
 ## 📚 Tech Stack
 
-Next.js 14+
-React 18+
-Tailwind CSS 3+
-Framer Motion 11+
+- **Next.js 14+**
+- **React 18+**
+- **Tailwind CSS 3+**
+- **Framer Motion 11+**
 
 ## ✨ Features
 
 - Dark and light color mode
-- Reusable Components
+- Reusable components
 - Blog post creation
-- Animations with Framer Motion
+- Smooth animations with Framer Motion
 - Tailwind CSS integration
 - Mobile-first responsive layout
 - Sitemap support
-- 95+ Lighthouse
+- 95+ Lighthouse score
 
-## 🚀 NexTemp Pro Coming Soon
+## 🚀 PRK Pro Coming Soon
 
-**Features**
+### **Additional Features**
 
-- SEO optimised
+- SEO optimization
 - Post tags and categories
-- Integration with Hashnode CMS for easy post publishing
+- Integration with Hashnode CMS for easy content publishing
 - PWA support
 
-### 🛠️ Requirements
+## 🛠️ Requirements
 
-- Node 18+
-  - https://nodejs.org/en
-- Yarn
-  - https://classic.yarnpkg.com/en/docs/getting-started
+- **Node.js 18+**  
+  [Download Node.js](https://nodejs.org/en)
+- **Yarn**  
+  [Get Started with Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
-## 🎬 Getting Started
+## 🙏 Thanks
 
-1. Clone the repository:
+If you enjoy this theme, please consider giving it a ⭐ on GitHub. Your support is appreciated!
 
-   ```bash
-   git clone https://github.com/ParmarRohitk/nextemp.git
-   ```
+## 📝 License
 
-2. Navigate into the repository:
-
-   ```bash
-   cd NexTemp
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   yarn
-   ```
-
-4. Run the development server:
-   ```bash
-   yarn dev
-   ```
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-#### 🙏 Thanks
-
-If you like this theme, don't forget to give it a ⭐.
-
-#### 🤝 Contributing
-
-Got enhancements you envision? Contributions are welcome! Fork the repo, push your changes, and submit a pull request. Let's make this theme better, together.
-
-#### 👾 Issues
-
-For any challenges encountered, please feel free to report issues through our issue tracker.
-
-#### 📝 License
-
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).

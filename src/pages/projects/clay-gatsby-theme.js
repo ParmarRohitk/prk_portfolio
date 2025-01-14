@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/clay-theme.png";
+import proj1 from "/public/images/projects/PRK-theme.png";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -39,14 +39,11 @@ export default function About() {
   return (
     <>
       <Head>
-        <link
-          rel="canonical"
-          href="https://travislord.xyz/projects/clay-gatsby-theme"
-        ></link>
-        <title>Clay Theme | Unlocking The Power Of Gatsby V5+ | By PRK</title>
+        <link rel="canonical" href="https://github.com/ParmarRohitk"></link>
+        <title>PRK Theme | Unlocking The Power Of Gatsby V5+ | By PRK</title>
         <meta
           name="description"
-          content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
+          content="I am thrilled to share PRK Theme with the web development community! I have recently launched PRK Theme, a cutting-edge Gatsby Framework Template."
         />
       </Head>
 
@@ -56,7 +53,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Clay - Gatsby Theme"
+            text="PRK - Gatsby Theme"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -66,7 +63,7 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Unlocking the Power of Gatsby v5+ & NetlifyCMS with Clay Theme.
+                Unlocking the Power of Gatsby v5+ & NetlifyCMS with PRK Theme.
               </h2>
               <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
                 Content | Web Design | UX/UI | Development
@@ -75,7 +72,7 @@ export default function About() {
               <p className="">
                 I am thrilled to share some exciting news with the web
                 development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called Clay, meticulously crafted to
+                Gatsby Framework Template called PRK, meticulously crafted to
                 seamlessly integrate with Netlify CMS, providing an effortless
                 and efficient solution for content management in the realm of
                 web development.
@@ -84,10 +81,10 @@ export default function About() {
                 Unleashing the Power of Gatsby Framework
               </h4>
               <p className="my-4">
-                At the heart of Clay lies the robust Gatsby Framework. This
+                At the heart of PRK lies the robust Gatsby Framework. This
                 innovative framework empowers developers to leverage the latest
                 web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—Clay delivers
+                outcome is nothing short of exceptional—PRK delivers
                 lightning-fast, highly optimized websites, waving goodbye to the
                 era of slow load times and ushering in an age of unparalleled
                 performance.
@@ -102,27 +99,27 @@ export default function About() {
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://clay-theme.netlify.app"
+                  href="https://prk.vercel.app/"
                   target={"_blank"}
                 >
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/ParmarRohitk/clay-theme"
+                  href="https://github.com/ParmarRohitk"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
                   <GithubIcon />
                 </Link>
-                <Link
-                  href="https://dev.to/ParmarRohitk/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
+                {/* <Link
+                  href="https://dev.to/ParmarRohitk/PRK-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-PRK-theme-njn"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
                   <DevIcon />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div
@@ -139,7 +136,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={proj1}
-                alt="Clay Gatsby Theme"
+                alt="PRK Gatsby Theme"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"

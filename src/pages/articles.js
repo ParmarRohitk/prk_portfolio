@@ -132,10 +132,10 @@ export default function Articles() {
   return (
     <>
       <Head>
-        <title>Development Articles | By NexTemp</title>
+        <title>Development Insights | By PRK</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="PRK, A open-source portfolio theme built with Nextjs"
         />
       </Head>
       <TransitionEffect />
@@ -153,7 +153,7 @@ export default function Articles() {
               title="Unlocking the Power of Gatsby & Netlify"
               time="2 min read"
               summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-              link="https://travislord.xyz/articles/guide-to-clay-theme-gatsby-web-app"
+              link="https://prk.vercel.app/"
             />
 
             <FeaturedArticle
@@ -161,12 +161,12 @@ export default function Articles() {
               title="My MacBook Setup For Development 2024"
               time="4 min read"
               summary="As we step into another year of exciting journeys, I figured it was the perfect moment to unveil the newest adjustments and tools I'm using in my MacBook setup."
-              link="https://travislord.xyz/articles/top-macbook-setup-tips-for-2024"
+              link="https://prk.vercel.app/"
             />
           </ul>
 
           <h2 className="font-bold text-4xl w-full text-center mt-32 my-16">
-            All Articles
+            Explore Insights
           </h2>
 
           <ul className="flex flex-col items-center relative">
@@ -189,7 +189,7 @@ export default function Articles() {
             md:p-2 md:px-4 md:text-base
              `}
             >
-              Get To Know Me
+              Learn My Story
             </Link>
             <Link
               href="/projects/"
@@ -200,7 +200,7 @@ export default function Articles() {
             md:p-2 md:px-4 md:text-base
              `}
             >
-              View Projects
+              See My Work
             </Link>
           </div>
           <HireMe2 />
