@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import blog1 from "../../public/images/articles/Clay-Gatsby-theme.webp";
+import blog1 from "../../public/images/articles/prk_theme.webp";
 import blog2 from "../../public/images/articles/My-MacBook-Setup-For-Development-2024.webp";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
