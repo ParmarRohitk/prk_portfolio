@@ -43,9 +43,7 @@ export default function About() {
           rel="canonical"
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
-        <title>
-          Clay Theme | Unlocking The Power Of Gatsby V5+ | By Travis Lord
-        </title>
+        <title>Clay Theme | Unlocking The Power Of Gatsby V5+ | By PRK</title>
         <meta
           name="description"
           content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
@@ -110,7 +108,7 @@ export default function About() {
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/lilxyzz/clay-theme"
+                  href="https://github.com/ParmarRohitk/clay-theme"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
@@ -118,7 +116,7 @@ export default function About() {
                   <GithubIcon />
                 </Link>
                 <Link
-                  href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
+                  href="https://dev.to/ParmarRohitk/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"

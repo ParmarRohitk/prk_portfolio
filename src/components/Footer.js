@@ -17,10 +17,10 @@ const Footer = () => {
           {""}
           by&nbsp;
           <Link
-            href="https://travislord.xyz/"
+            href="https://prk.vercel.app/"
             className="underline underline-offset-2"
           >
-            Travis Lord
+            PRK
           </Link>
         </div>
       </Layout>

@@ -291,7 +291,7 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://github.com/ParmarRohitk/"
               />
             </ul>
 

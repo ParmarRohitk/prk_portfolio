@@ -16,12 +16,12 @@ module.exports = {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
       colors: {
-        dark: "#1b1b1b",
+        dark: "#121212",
         light: "#f5f5f5",
         primary: "#2545d0",
-        primaryDark: "#4377ee",
-        lightGreen: "#4377ee",
-        slideGreen: "#2439a9",
+        primaryDark: "#0036b5",
+        lightGreen: "#00ADB5",
+        slideGreen: "#FFC107",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
