@@ -9,6 +9,8 @@ import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
 import { HireMe2 } from "@/components/HireMe2";
+import profilePic from "../../public/images/profile/prk.png";
+import Educations from "@/components/Educations";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -51,7 +53,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Let Passion Lead Your Purpose 🔥"
+            text="Follow Your Passion’s Path 🔥"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -64,27 +66,31 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Rohit, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+                Hello there, my name is Parmar Rohit K. I am a fully dedicated
+                Full Stack Developer , pursuing MCA in the field of computer
+                science & IT . Training in web development for over 1 year and 8
+                months, I enjoy being part of a team that creating user-centric
+                interactive applications that introduce elements of creativity
+                with functionality.
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
+                These experiences have contributed to my journey in building the
+                tech industry from the frontend to end with a core expertise in
+                backend architecture. Designing interfaces and creating
+                exceptional visual images to optimizing intricate back end
+                solutions and delivering fabulous value added and efficient user
+                specific digital solutions is what I enjoy most. In addition to
+                coding, I have passion in solving problems and learning. In any
+                web development project, including a search engine optimization
+                project or calling APIs to improve the website, I always seek to
+                provide other solutions that are practical and high value in
+                terms of outcome.
               </p>
               <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+                When I am not coding I like to watch anime because it helps
+                generate as many ideas as possible often leading to thinking out
+                of the box. Join us to All Ideas INTO Reality or, as the acronym
+                suggests.
               </p>
             </div>
             <div
@@ -101,7 +107,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
                 priority={true}
-                src={profile}
+                src={profilePic}
                 alt="PRK"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
@@ -114,7 +120,7 @@ export default function About() {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
+                  <AnimatedNumberFramerMotion value={1825} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -126,7 +132,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={500} />
+                  <AnimatedNumberFramerMotion value={645} />
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -138,7 +144,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={499} />
+                  <AnimatedNumberFramerMotion value={389} />
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -153,6 +159,7 @@ export default function About() {
 
           <Skills />
           <Experience />
+          {/* <Educations /> */}
         </Layout>
       </main>
     </>

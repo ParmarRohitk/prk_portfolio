@@ -58,25 +58,25 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/ParmarRohitk"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Full Stack Web Developer"
+            company="JBcodeapp"
+            time="June 2023 - Pursuing"
+            address="Surat, Gujarat, India"
+            companyLink=""
+            work="At JBcodeapp, I work as a Full Stack Developer, specializing in creating efficient and user-friendly web applications. My role involves developing and maintaining frontend and backend systems, integrating APIs, and collaborating with cross-functional teams to deliver high-quality solutions. This onsite experience has further honed my ability to meet client expectations while working in a fast-paced environment."
           />
 
-          <Details
+          {/* <Details
             position="Rad Tester"
             company="Vault Technologies"
             time="2018 - 2020"
             address="404 Tech st"
             companyLink="https://github.com/ParmarRohitk"
             work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
-          />
+          /> */}
         </ul>
       </div>
-      <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">
+      {/* <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">
         <Link
           href="/projects/"
           target={"_self"}
@@ -99,7 +99,7 @@ const Experience = () => {
         >
           View Articles
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
