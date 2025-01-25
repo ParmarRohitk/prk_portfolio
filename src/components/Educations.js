@@ -3,14 +3,7 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 import Link from "next/link";
 
-const Educations = ({
-  position,
-  company,
-  companyLink,
-  time,
-  address,
-  work,
-}) => {
+const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
   return (
     <li
@@ -42,7 +35,7 @@ const Educations = ({
   );
 };
 
-const Experience = () => {
+const Educations = () => {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({

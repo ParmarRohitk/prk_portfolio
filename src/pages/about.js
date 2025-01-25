@@ -159,7 +159,7 @@ export default function About() {
 
           <Skills />
           <Experience />
-          {/* <Educations /> */}
+          <Educations />
         </Layout>
       </main>
     </>

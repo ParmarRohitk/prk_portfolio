@@ -7,8 +7,11 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
+import proj1 from "../../public/images/projects/busi_learn.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
+
+import proj2 from "../../public/images/projects/ezshop.png";
+import proj3 from "../../public/images/projects/moviestrem.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -244,19 +247,30 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="Where Ideas Come to Life ✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="PRK"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                type="Design & Idea"
+                tools="MONGODB | EXPRESS | REACT | NODE | SCSS"
+                title="Busilearn"
+                summary="It is a E-Learning website which provides functionality of registering in any course and watch its courses videos and many other features such as Admin Panel, Instructors related functions etc."
                 img={proj1}
                 date="2023"
-                link="/"
+                link="https://busilearn.vercel.app/"
+                github="https://github.com/ParmarRohitk/Busilearn"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Design & Development"
+                tools="ReactJS | NextJS | JavaScript | TailwindCSS"
+                title="Movie Streaming"
+                img={proj3}
+                date="2023"
+                link="https://cinemaio.vercel.app/"
                 github="https://github.com/ParmarRohitk"
               />
             </div>
@@ -264,22 +278,12 @@ export default function Projects() {
               <Project
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
-                title="PRK"
-                img={proj1}
+                title="EZSOP (E-commerce Web App)"
+                img={proj2}
                 date="2023"
+                summary="An e-commerce project in which the admin may manage products and consumers can login/register and buy products. - MySQL, PHP, Javascript, HTML, CSS, and Bootstrap."
                 link="/"
-                github="https://github.com/ParmarRohitk"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="PRK"
-                img={proj1}
-                date="2023"
-                link=""
-                github="https://github.com/ParmarRohitk"
+                github="https://github.com/ParmarRohitk/E-commerce-website"
               />
             </div>
           </div>
