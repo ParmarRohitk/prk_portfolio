@@ -2,15 +2,18 @@ import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import blog1 from "../../public/images/articles/prk_theme.webp";
-import blog2 from "../../public/images/articles/My-MacBook-Setup-For-Development-2024.webp";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+// import loading from "../../public/images/articles/GTA6-VICE.gif";
+import loading from "../../public/images/articles/comming_soon.gif";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
 import { useRef } from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 import { HireMe2 } from "@/components/HireMe2";
+
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 
 const FramerImage = motion(Image);
 
@@ -106,6 +109,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       >
         <FramerImage
           src={img}
+          width={1200}
+          height={700}
           alt={title}
           className="w-full max-h-80 object-cover"
           whileHover={{ scale: 1.05 }}
@@ -128,7 +133,28 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
   );
 };
 
-export default function Articles() {
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join(process.cwd(), "src/posts"));
+  const posts = files.map((filename) => {
+    const filePath = path.join(process.cwd(), "src/posts", filename);
+    const fileContent = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContent);
+
+    return {
+      slug: filename.replace(".mdx", ""),
+      title: data.title,
+      date: data.date,
+    };
+  });
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
+
+export default function Articles({ posts }) {
   return (
     <>
       <Head>
@@ -144,40 +170,37 @@ export default function Articles() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Words Influence the World 🌎"
+            text="Tech Talks That Shape Tomorrow"
             className="!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
-          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
-            <FeaturedArticle
-              img={blog1}
-              title="Unlocking the Power of Gatsby & Netlify"
-              time="2 min read"
-              summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-              link="https://prk.vercel.app/"
-            />
 
-            <FeaturedArticle
-              img={blog2}
-              title="My MacBook Setup For Development 2024"
-              time="4 min read"
-              summary="As we step into another year of exciting journeys, I figured it was the perfect moment to unveil the newest adjustments and tools I'm using in my MacBook setup."
-              link="https://prk.vercel.app/"
-            />
+          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+            {posts.map((post) => (
+              <div key={post.slug}>
+                <FeaturedArticle
+                  img={`/images/articles/${post.slug}.webp`} // Replace with actual image if needed
+                  title={post.title}
+                  time="2 min read" // Or dynamically calculate based on the post content if needed
+                  summary={post.summary}
+                  link={`/articles/${post.slug}`}
+                />
+              </div>
+            ))}
           </ul>
 
           <h2 className="font-bold text-4xl w-full text-center mt-32 my-16">
             Explore Insights
           </h2>
 
-          <ul className="flex flex-col items-center relative">
+          {/* <ul className="flex flex-col items-center relative">
             <Article
-              title="Adding more soon, thanks for the interest!"
+              title="More updates coming soon, thank you for your interest!"
               img={loading}
               time="1 min read"
-              date=""
-              link="https://github.com/ParmarRohitk/"
+              date="Very Soon"
+              link="/"
             />
-          </ul>
+          </ul> */}
 
           <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
             <Link

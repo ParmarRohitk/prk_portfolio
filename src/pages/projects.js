@@ -8,7 +8,7 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/busi_learn.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import loading from "../../public/images/articles/prk.gif";
 
 import proj2 from "../../public/images/projects/ezshop.png";
 import proj3 from "../../public/images/projects/moviestrem.png";
@@ -291,11 +291,11 @@ export default function Projects() {
           <div>
             <ul className="flex flex-col items-center relative pt-16">
               <Article
-                title="Adding more soon, thanks for the interest!"
+                title="More updates coming soon, thank you for your interest!"
                 img={loading}
                 time="1 min read"
-                date=""
-                link="https://github.com/ParmarRohitk/"
+                date="Very Soon"
+                link="/articles"
               />
             </ul>
 
