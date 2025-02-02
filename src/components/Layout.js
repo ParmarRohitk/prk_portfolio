@@ -42,6 +42,7 @@ const Layout = ({ children, className = "" }) => {
         <meta name="twitter:site" content="@parmarrohitk_" />
 
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:locale" content="en_IN"></meta>
       </Head>
       <div
         style={{

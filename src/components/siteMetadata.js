@@ -7,6 +7,6 @@ export const siteMetadata = {
   email: "contact@parmar-rohit-k.vercel.app", // Your contact email
   github: "https://github.com/ParmarRohitk", // Your GitHub profile URL
   twitter: "@RohitKParmar", // Your Twitter handle (replace if needed)
-  linkedin: "https://www.linkedin.com/in/rohitkparmar", // Your LinkedIn profile URL
+  linkedin: "https://www.linkedin.com/in/parmar-rohit-k-2b747721b/", // Your LinkedIn profile URL
   locale: "en_US", // The default locale of your website
 };
