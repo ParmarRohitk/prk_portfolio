@@ -15,6 +15,7 @@ import proj3 from "../../public/images/projects/moviestrem.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
+import { Baseurl } from "@/components/Baseurl";
 
 const FramerImage = motion(Image);
 
@@ -234,11 +235,8 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By PRK</title>
-        <meta
-          name="description"
-          content="PRK, A open-source portfolio theme built with Nextjs"
-        />
+        <title>Projects || Parmar Rohit K.</title>
+        <link rel="canonical" href={`${Baseurl}/projects`} />
       </Head>
 
       <TransitionEffect />

@@ -14,6 +14,7 @@ import { HireMe2 } from "@/components/HireMe2";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { Baseurl } from "@/components/Baseurl";
 
 const FramerImage = motion(Image);
 
@@ -158,11 +159,8 @@ export default function Articles({ posts }) {
   return (
     <>
       <Head>
-        <title>Development Insights | By PRK</title>
-        <meta
-          name="description"
-          content="PRK, A open-source portfolio theme built with Nextjs"
-        />
+        <title>Articles || Parmar Rohit K.</title>
+        <link rel="canonical" href={`${Baseurl}/articles`} />
       </Head>
       <TransitionEffect />
       <main
@@ -189,7 +187,7 @@ export default function Articles({ posts }) {
           </ul>
 
           <h2 className="font-bold text-4xl w-full text-center mt-32 my-16">
-            Explore Insights
+            {/* Explore Insights */}
           </h2>
 
           {/* <ul className="flex flex-col items-center relative">

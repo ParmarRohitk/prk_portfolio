@@ -11,6 +11,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { HireMe2 } from "@/components/HireMe2";
 import profilePic from "../../public/images/profile/prk.png";
 import Educations from "@/components/Educations";
+import { Baseurl } from "@/components/Baseurl";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -40,11 +41,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About PRK</title>
-        <meta
-          name="description"
-          content="PRK, A open-source portfolio theme built with Nextjs"
-        />
+        <title>About || Parmar Rohit K.</title>
+        <link rel="canonical" href={`${Baseurl}/about`} />
       </Head>
 
       <TransitionEffect />
@@ -66,12 +64,12 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hello there, my name is Parmar Rohit K. I am a fully dedicated
-                Full Stack Developer , pursuing MCA in the field of computer
-                science & IT . Training in web development for over 1 year and 8
-                months, I enjoy being part of a team that creating user-centric
-                interactive applications that introduce elements of creativity
-                with functionality.
+                Hello there, my name is Parmar Rohit K. K. I am a fully
+                dedicated Full Stack Developer , pursuing MCA in the field of
+                computer science & IT . Training in web development for over 1
+                year and 8 months, I enjoy being part of a team that creating
+                user-centric interactive applications that introduce elements of
+                creativity with functionality.
               </p>
               <p className="my-4 font-medium">
                 These experiences have contributed to my journey in building the
@@ -87,10 +85,9 @@ export default function About() {
                 terms of outcome.
               </p>
               <p className="my-4 font-medium">
-                When I am not coding I like to watch anime because it helps
-                generate as many ideas as possible often leading to thinking out
-                of the box. Join us to All Ideas INTO Reality or, as the acronym
-                suggests.
+                When I am not coding, I enjoy exploring new technologies and
+                building creative projects, as it helps generate innovative
+                ideas and encourages thinking outside the box.
               </p>
             </div>
             <div
@@ -108,7 +105,7 @@ export default function About() {
                 className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
                 priority={true}
                 src={profilePic}
-                alt="PRK"
+                alt="Parmar Rohit K."
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"

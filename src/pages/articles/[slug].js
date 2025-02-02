@@ -198,7 +198,7 @@ const BlogDetail = ({ frontMatter, mdxSource, content }) => {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="text-lg font-semibold">PRK</p>
+                  <p className="text-lg font-semibold">Parmar Rohit K.</p>
                   <p className="text-gray-600 dark:text-gray-300">
                     Full Stack Web Developer
                   </p>

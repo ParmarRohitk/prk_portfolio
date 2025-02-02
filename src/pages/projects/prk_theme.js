@@ -40,10 +40,10 @@ export default function About() {
     <>
       <Head>
         <link rel="canonical" href="https://github.com/ParmarRohitk"></link>
-        <title>PRK Theme | Unlocking The Power Of Gatsby V5+ | By PRK</title>
+        <title>About Me | Parmar Rohit K. – Full Stack Developer</title>
         <meta
           name="description"
-          content="I am thrilled to share PRK Theme with the web development community! I have recently launched PRK Theme, a cutting-edge Gatsby Framework Template."
+          content="I’m Parmar Rohit K., a Full Stack Developer who loves crafting sleek, high-performance websites with React, Next.js, and nODE.js. Let’s build something amazing!"
         />
       </Head>
 
@@ -53,7 +53,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="PRK - Gatsby Theme"
+            text="Parmar Rohit K. - Gatsby Theme"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -63,7 +63,8 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Unlocking the Power of Gatsby v5+ & NetlifyCMS with PRK Theme.
+                Unlocking the Power of Gatsby v5+ & NetlifyCMS with Parmar Rohit
+                K. Theme.
               </h2>
               <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
                 Content | Web Design | UX/UI | Development
@@ -72,22 +73,22 @@ export default function About() {
               <p className="">
                 I am thrilled to share some exciting news with the web
                 development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called PRK, meticulously crafted to
-                seamlessly integrate with Netlify CMS, providing an effortless
-                and efficient solution for content management in the realm of
-                web development.
+                Gatsby Framework Template called Parmar Rohit K., meticulously
+                crafted to seamlessly integrate with Netlify CMS, providing an
+                effortless and efficient solution for content management in the
+                realm of web development.
               </p>
               <h4 className="mt-4 text-lg font-800 capitalize text-dark/75 dark:text-light/75">
                 Unleashing the Power of Gatsby Framework
               </h4>
               <p className="my-4">
-                At the heart of PRK lies the robust Gatsby Framework. This
-                innovative framework empowers developers to leverage the latest
-                web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—PRK delivers
-                lightning-fast, highly optimized websites, waving goodbye to the
-                era of slow load times and ushering in an age of unparalleled
-                performance.
+                At the heart of Parmar Rohit K. lies the robust Gatsby
+                Framework. This innovative framework empowers developers to
+                leverage the latest web technologies, including React, GraphQL,
+                and Webpack. The outcome is nothing short of exceptional—Parmar
+                Rohit K. delivers lightning-fast, highly optimized websites,
+                waving goodbye to the era of slow load times and ushering in an
+                age of unparalleled performance.
               </p>
 
               <div className="mt-2 flex items-center grid-cols-8 gap-4 sm:gap-8">
@@ -136,7 +137,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={proj1}
-                alt="PRK Gatsby Theme"
+                alt="Parmar Rohit K. "
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"

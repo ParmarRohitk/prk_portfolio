@@ -48,10 +48,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>PRK Built with Nextjs</title>
+        <title>Parmar Rohit K. Built with Nextjs</title>
         <meta
           name="description"
-          content="PRK, A open-source portfolio theme built with Nextjs"
+          content="Parmar Rohit K., A open-source portfolio theme built with Nextjs"
         />
       </Head>
 

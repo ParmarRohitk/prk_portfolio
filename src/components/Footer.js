@@ -20,7 +20,7 @@ const Footer = () => {
             href="https://prk.vercel.app/"
             className="underline underline-offset-2"
           >
-            PRK
+            Parmar Rohit K.
           </Link>
         </div>
       </Layout>

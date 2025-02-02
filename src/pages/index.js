@@ -7,21 +7,24 @@ import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
 import profilePic from "../../public/images/profile/prk.png";
 import Logo from "../../public/light_mode_prk_logo.png";
+import { Baseurl } from "@/components/Baseurl";
 
 export default function Home() {
+  const baseURL = process.env.BASE_URL;
   return (
     <>
       <Head>
-        <title>PRK Portfolio</title>
+        <title>Parmar Rohit K. || Portfolio</title>
         <meta
           name="description"
           content="Next Portfolio, A open-source portfolio theme built with Nextjs"
         />
+        <link rel="canonical" href={`${Baseurl}`} />
       </Head>
 
       <TransitionEffect />
       <article
-        className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
+        className={`flex -min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="-!pt-24 md:!pt-16 sm:!pt-28">
           <div className="flex w-full items-start justify-between md:flex-col pt-10 pb-24">
@@ -44,7 +47,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
-                <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
+                <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-4xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
                   I create web experiences that connect and inspire.
                 </h2>
               </div>
