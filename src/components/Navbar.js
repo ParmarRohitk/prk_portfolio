@@ -131,7 +131,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-7 mx-3 bg-light rounded-full"
-              href="https://www.linkedin.com/in/parmarrohitk."
+              href="https://www.linkedin.com/in/parmar-rohit-k-2b747721b/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Linked profile"
@@ -234,7 +234,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-7 mx-3 bg-light rounded-full"
-              href="https://www.linkedin.com/in/parmarrohitk."
+              href="https://www.linkedin.com/in/parmar-rohit-k-2b747721b/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Linked profile"
