@@ -1,8 +1,8 @@
 {
-  "name": "Parmar Rohit K",
+  "name": "parmarrohitk",
   "private": true,
   "version": "1.0.0",
-  "author": "Parmar Rohit K. <hi@travislord.xyz>",
+  "author": "Parmar Rohit K <hi@travislord.xyz>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
